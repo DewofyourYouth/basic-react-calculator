@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Oswald|Roboto&display=swap');
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+#calc-wrapper {
+  text-align: center;
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+#calc {
+  width: 300px;
+  display: flex;
+  padding: 10px;
+}
+
+#calc input,
+#calc button {
+  padding: 5px;
+  font-size: 1.5rem;
+}
+
+#calc input {
+  font-family: 'Oswald', sans-serif;
+  width: 290px;
+  margin-bottom: 10px;
+}
+
+#calc button {
+  box-shadow: inset 0px 1px 0px 0px #9acc85;
+  background: linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+  background-color: #74ad5a;
+  border-radius: 3px;
+  border: 1px solid #3b6e22;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #92b879;
+}
+
+#calc button:hover {
+  background: linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+  background-color: #68a54b;
+}
+
+#calc button.operator-btn,
+.reset-btn {
+  box-shadow: inset 0px 1px 0px 0px #fff6af;
+  background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+  background-color: #ffec64;
+  border-radius: 3px;
+  border: 1px solid #ffaa22;
+  display: inline-block;
+  cursor: pointer;
+  color: #333333;
+  font-family: Arial;
+  font-size: 1.5rem;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffee66;
+}
+
+#calc button.operator-btn:hover,
+.reset-btn {
+  background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+  background-color: #ffab23;
+}
+
+#calc button.submitBtn {
+  box-shadow: inset 0px 1px 0px 0px #54a3f7;
+  background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+  background-color: #007dc1;
+  border-radius: 3px;
+  border: 1px solid #124d77;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 1.5rem;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #154682;
+}
+
+#calc button.submitBtn:hover {
+  background: linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+  background-color: #0061a7;
+}
+
+#btn-grid {
+  width: 300px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
